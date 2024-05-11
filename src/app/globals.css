@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+    --rocketSeat: 261, 75%, 61%;
+  }
+
+  body {
+    @apply font-sans bg-gray900 text-gray100;
+  }
+}
